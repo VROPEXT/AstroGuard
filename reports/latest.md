@@ -1,0 +1,51 @@
+# AstroGuard - rapport du 2026-10-18
+
+*97 approches a moins de 0,05 UA dans les 180 prochains jours.*
+
+Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
+
+| Risque | Objet | Date (NASA) | Distance | Diam. est. | v (km/s) |
+|-------:|-------|-------------|---------:|-----------:|---------:|
+| 0.94 **!** | (2025 UK9) | 2026-Oct-31 02:35 | 0.2 LD | 4 m | 7.7 |
+| 0.91 **!** | (2022 EF1) | 2027-Mar-04 21:13 | 0.2 LD | 6 m | 10.4 |
+| 0.88 **!** | (2019 XF2) | 2026-Dec-04 00:35 | 1.2 LD | 14 m | 10.2 |
+| 0.81 **!** | (2022 DQ2) | 2027-Feb-26 01:53 | 1.5 LD | 32 m | 20.8 |
+| 0.79 **!** | (2023 FP1) | 2027-Jan-05 02:23 | 5.9 LD | 17 m | 2.7 |
+| 0.77 **!** | (2023 XH3) | 2026-Dec-06 19:09 | 4.5 LD | 14 m | 16.5 |
+| 0.77 **!** | (2025 XN6) | 2026-Dec-12 22:26 | 6.1 LD | 5 m | 12.2 |
+| 0.77 **!** | (2022 GL) | 2027-Apr-02 06:09 | 3.5 LD | 5 m | 7.5 |
+| 0.74 **!** | (2022 EA) | 2027-Mar-07 06:50 | 3.0 LD | 18 m | 15.1 |
+| 0.71 **!** | (2026 FW12) | 2027-Mar-17 00:34 | 3.5 LD | 13 m | 8.1 |
+| 0.69 **!** | (2012 TF79) | 2027-Feb-26 11:20 | 12.7 LD | 12 m | 0.3 |
+| 0.67 **!** | (2015 DG200) | 2027-Jan-22 12:01 | 3.7 LD | 124 m | 20.0 |
+| 0.66 **!** | (2026 UE) | 2026-Oct-25 05:53 | 5.1 LD | 25 m | 15.9 |
+| 0.65 **!** | (2026 TS) | 2026-Oct-18 06:16 | 2.4 LD | 55 m | 10.3 |
+| 0.65 **!** | (2022 BB2) | 2027-Jan-23 21:17 | 6.6 LD | 17 m | 16.3 |
+| 0.63 **!** | (2010 TK) | 2027-Mar-15 08:53 | 2.2 LD | 31 m | 11.4 |
+| 0.57 **!** | (2009 HC) | 2027-Apr-09 23:37 | 6.2 LD | 42 m | 4.1 |
+| 0.57 **!** | (2010 VQ) | 2026-Dec-12 04:55 | 4.6 LD | 10 m | 4.2 |
+| 0.56 **!** | (2021 VC4) | 2026-Nov-03 17:30 | 5.3 LD | 15 m | 11.2 |
+| 0.56 **!** | (2023 TX) | 2027-Jan-17 19:48 | 7.4 LD | 4 m | 7.7 |
+| 0.55 **!** | (2026 TV8) | 2026-Oct-21 23:47 | 4.7 LD | 26 m | 9.2 |
+| 0.54 **!** | (2025 AK3) | 2027-Jan-17 15:45 | 5.4 LD | 21 m | 7.0 |
+| 0.54 **!** | (2011 ES4) | 2027-Mar-13 22:47 | 5.2 LD | 23 m | 7.7 |
+| 0.53 **!** | (2026 TB94) | 2026-Oct-27 01:07 | 5.0 LD | 27 m | 11.6 |
+| 0.52 **!** | (2026 FU) | 2027-Mar-23 20:20 | 11.4 LD | 11 m | 3.3 |
+
+## Verification orbitale (moteur Kepler maison)
+
+Pour les objets les mieux classes, on recalcule l'approche a partir des seuls elements orbitaux, independamment de la NASA.
+
+| Objet | Date calc. | Dist. calc. | v_rel | MOID |
+|-------|-----------|------------:|------:|-----:|
+| (2025 UK9) | 2026-10-31 | 0.8 LD | 7.7 km/s | - |
+| (2022 EF1) | 2027-03-04 | 3.0 LD | 10.4 km/s | - |
+| (2019 XF2) | 2026-12-04 | 3.1 LD | 10.2 km/s | - |
+| (2022 DQ2) | 2027-02-26 | 18.9 LD | 20.8 km/s | - |
+| (2023 FP1) | 2027-01-05 | 10.5 LD | 2.7 km/s | - |
+| (2023 XH3) | 2026-12-06 | 18.6 LD | 16.5 km/s | - |
+| (2025 XN6) | 2026-12-12 | 6.9 LD | 12.2 km/s | - |
+| (2022 GL) | 2027-04-02 | 6.5 LD | 7.5 km/s | - |
+
+---
+LD = distance lunaire (~384 400 km). Donnees : JPL/NASA (CAD, Sentry, SBDB). Calculs : AstroGuard.

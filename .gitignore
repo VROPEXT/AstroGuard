@@ -1,0 +1,9 @@
+# caches de donnees regeneres a chaque run (volumineux)
+data/cad.json
+data/sentry.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

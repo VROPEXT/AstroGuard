@@ -1,0 +1,34 @@
+name: AstroGuard quotidien
+
+# Tourne tout seul sur les serveurs de GitHub, PC eteint.
+on:
+  schedule:
+    - cron: "0 7 * * *"   # tous les jours a 07h00 UTC
+  workflow_dispatch: {}    # + bouton "Run" manuel dans l'onglet Actions
+
+permissions:
+  contents: write           # pour reecrire le rapport dans le depot
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dependances
+        run: pip install -r requirements.txt
+
+      - name: Lancer le moniteur
+        run: python -m astroguard.monitor --days 180 --top 15
+
+      - name: Publier le rapport du jour
+        run: |
+          git config user.name "AstroGuard bot"
+          git config user.email "actions@github.com"
+          git add reports/
+          git diff --staged --quiet || git commit -m "Rapport AstroGuard $(date -u +%Y-%m-%d)"
+          git push
