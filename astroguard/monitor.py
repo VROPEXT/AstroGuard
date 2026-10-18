@@ -147,7 +147,7 @@ def _write(report: dict, today: dt.date):
         c = o.get("check")
         if not c:
             continue
-        moid = f"{c['moid_au']:.4f} UA" if c.get("moid") is not None else "-"
+        moid = f"{c['moid_au']:.4f} UA" if c.get("moid_au") is not None else "-"
         lines.append(
             f"| {o['fullname']} | {c['date_calc']} | {c['dist_calc_ld']:.1f} LD "
             f"| {c['v_rel_km_s']:.1f} km/s | {moid} |"
