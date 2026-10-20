@@ -1,6 +1,6 @@
-# AstroGuard - rapport du 2026-10-19
+# AstroGuard - rapport du 2026-10-20
 
-*95 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*94 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
