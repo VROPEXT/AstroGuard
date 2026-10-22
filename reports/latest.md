@@ -1,4 +1,4 @@
-# AstroGuard - rapport du 2026-10-21
+# AstroGuard - rapport du 2026-10-22
 
 *93 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
@@ -7,7 +7,7 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | Risque | Objet | Date (NASA) | Distance | Diam. est. | v (km/s) |
 |-------:|-------|-------------|---------:|-----------:|---------:|
 | 0.94 **!** | (2025 UK9) | 2026-Oct-31 02:35 | 0.2 LD | 4 m | 7.7 |
-| 0.93 **!** | (2026 UA1) | 2026-Oct-23 17:36 | 0.6 LD | 9 m | 9.3 |
+| 0.93 **!** | (2026 UA1) | 2026-Oct-23 17:35 | 0.6 LD | 10 m | 9.3 |
 | 0.91 **!** | (2022 EF1) | 2027-Mar-04 21:13 | 0.2 LD | 6 m | 10.4 |
 | 0.88 **!** | (2019 XF2) | 2026-Dec-04 00:35 | 1.2 LD | 14 m | 10.2 |
 | 0.81 **!** | (2022 DQ2) | 2027-Feb-26 01:53 | 1.5 LD | 32 m | 20.8 |
@@ -27,10 +27,10 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.57 **!** | (2010 VQ) | 2026-Dec-12 04:55 | 4.6 LD | 10 m | 4.2 |
 | 0.56 **!** | (2021 VC4) | 2026-Nov-03 17:30 | 5.3 LD | 15 m | 11.2 |
 | 0.56 **!** | (2023 TX) | 2027-Jan-17 19:48 | 7.4 LD | 4 m | 7.7 |
-| 0.55 **!** | (2026 TV8) | 2026-Oct-21 23:47 | 4.7 LD | 25 m | 9.2 |
 | 0.54 **!** | (2025 AK3) | 2027-Jan-17 15:45 | 5.4 LD | 21 m | 7.0 |
 | 0.54 **!** | (2011 ES4) | 2027-Mar-13 22:47 | 5.2 LD | 23 m | 7.7 |
 | 0.53 **!** | (2026 TB94) | 2026-Oct-27 01:10 | 5.0 LD | 27 m | 11.6 |
+| 0.52 **!** | (2026 FU) | 2027-Mar-23 20:20 | 11.4 LD | 11 m | 3.3 |
 
 ## Verification orbitale (moteur Kepler maison)
 
