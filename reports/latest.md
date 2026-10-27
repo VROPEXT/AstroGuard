@@ -1,6 +1,6 @@
-# AstroGuard - rapport du 2026-10-26
+# AstroGuard - rapport du 2026-10-27
 
-*81 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*82 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
@@ -19,6 +19,7 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.69 **!** | (2012 TF79) | 2027-Feb-26 11:20 | 12.7 LD | 12 m | 0.3 |
 | 0.67 **!** | (2015 DG200) | 2027-Jan-22 12:01 | 3.7 LD | 124 m | 20.0 |
 | 0.65 **!** | (2022 BB2) | 2027-Jan-23 21:17 | 6.6 LD | 17 m | 16.3 |
+| 0.64 **!** | (2024 JH1) | 2027-Apr-24 17:54 | 3.2 LD | 18 m | 6.0 |
 | 0.64 **!** | (2021 TG14) | 2027-Apr-16 06:39 | 6.8 LD | 8 m | 12.3 |
 | 0.63 **!** | (2010 TK) | 2027-Mar-15 08:53 | 2.2 LD | 31 m | 11.4 |
 | 0.57 **!** | (2009 HC) | 2027-Apr-09 23:37 | 6.2 LD | 42 m | 4.1 |
@@ -30,7 +31,6 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.53 **!** | (2026 TB94) | 2026-Oct-27 01:11 | 5.1 LD | 26 m | 11.6 |
 | 0.52 **!** | (2026 FU) | 2027-Mar-23 20:20 | 11.4 LD | 11 m | 3.3 |
 | 0.51 **!** | (2023 VE6) | 2026-Nov-17 06:46 | 6.0 LD | 13 m | 10.1 |
-| 0.51 **!** | (2020 DS3) | 2027-Feb-14 03:49 | 6.6 LD | 23 m | 6.7 |
 
 ## Verification orbitale (moteur Kepler maison)
 
@@ -51,8 +51,8 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 | (2012 TF79) | 2027-02-18 | 13.8 LD | 0.5 km/s | 0.0315 UA |
 | (2015 DG200) | 2027-01-22 | 3.7 LD | 20.0 km/s | 0.0069 UA |
 | (2022 BB2) | 2027-01-23 | 18.7 LD | 16.3 km/s | 0.0107 UA |
+| (2024 JH1) | 2027-04-24 | 3.3 LD | 6.0 km/s | 0.0084 UA |
 | (2021 TG14) | 2027-04-16 | 12.9 LD | 12.2 km/s | 0.0017 UA |
-| (2010 TK) | 2027-03-15 | 18.2 LD | 11.4 km/s | 0.0056 UA |
 
 ---
 LD = distance lunaire (~384 400 km). Donnees : JPL/NASA (CAD, Sentry, SBDB). Calculs : AstroGuard.
