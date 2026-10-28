@@ -1,6 +1,6 @@
-# AstroGuard - rapport du 2026-10-27
+# AstroGuard - rapport du 2026-10-28
 
-*82 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*81 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
@@ -28,9 +28,9 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.56 **!** | (2023 TX) | 2027-Jan-17 19:48 | 7.4 LD | 4 m | 7.7 |
 | 0.54 **!** | (2025 AK3) | 2027-Jan-17 15:45 | 5.4 LD | 21 m | 7.0 |
 | 0.54 **!** | (2011 ES4) | 2027-Mar-13 22:47 | 5.2 LD | 23 m | 7.7 |
-| 0.53 **!** | (2026 TB94) | 2026-Oct-27 01:11 | 5.1 LD | 26 m | 11.6 |
 | 0.52 **!** | (2026 FU) | 2027-Mar-23 20:20 | 11.4 LD | 11 m | 3.3 |
 | 0.51 **!** | (2023 VE6) | 2026-Nov-17 06:46 | 6.0 LD | 13 m | 10.1 |
+| 0.51 **!** | (2020 DS3) | 2027-Feb-14 03:49 | 6.6 LD | 23 m | 6.7 |
 
 ## Verification orbitale (moteur Kepler maison)
 
