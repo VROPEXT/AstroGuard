@@ -1,4 +1,4 @@
-# AstroGuard - rapport du 2026-10-31
+# AstroGuard - rapport du 2026-11-01
 
 *80 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
@@ -7,7 +7,6 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | Risque | Objet | Date (NASA) | Distance | Diam. est. | v (km/s) |
 |-------:|-------|-------------|---------:|-----------:|---------:|
 | 0.96 **!** | (2026 QQ8) | 2026-Dec-13 13:41 | 3.5 LD | 2 m | 0.2 |
-| 0.94 **!** | (2025 UK9) | 2026-Oct-31 02:35 | 0.2 LD | 4 m | 7.7 |
 | 0.91 **!** | (2022 EF1) | 2027-Mar-04 21:13 | 0.2 LD | 6 m | 10.4 |
 | 0.88 **!** | (2019 XF2) | 2026-Dec-04 00:35 | 1.2 LD | 14 m | 10.2 |
 | 0.81 **!** | (2022 DQ2) | 2027-Feb-26 01:53 | 1.5 LD | 32 m | 20.8 |
@@ -23,6 +22,7 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.64 **!** | (2024 JH1) | 2027-Apr-24 17:54 | 3.2 LD | 18 m | 6.0 |
 | 0.64 **!** | (2021 TG14) | 2027-Apr-16 06:39 | 6.8 LD | 8 m | 12.3 |
 | 0.63 **!** | (2010 TK) | 2027-Mar-15 08:53 | 2.2 LD | 31 m | 11.4 |
+| 0.60 **!** | (2019 HS) | 2027-Apr-29 02:16 | 4.2 LD | 13 m | 6.8 |
 | 0.57 **!** | (2009 HC) | 2027-Apr-09 23:37 | 6.2 LD | 42 m | 4.1 |
 | 0.57 **!** | (2010 VQ) | 2026-Dec-12 04:55 | 4.6 LD | 10 m | 4.2 |
 | 0.56 **!** | (2021 VC4) | 2026-Nov-03 17:30 | 5.3 LD | 15 m | 11.2 |
@@ -38,8 +38,7 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 
 | Objet | Date calc. | Dist. calc. | v_rel | MOID |
 |-------|-----------|------------:|------:|-----:|
-| (2026 QQ8) | 2026-10-31 | 9.0 LD | 0.8 km/s | 0.0038 UA |
-| (2025 UK9) | 2026-10-31 | 1.1 LD | 7.7 km/s | 0.0005 UA |
+| (2026 QQ8) | 2026-11-01 | 9.1 LD | 0.8 km/s | 0.0038 UA |
 | (2022 EF1) | 2027-03-04 | 3.0 LD | 10.4 km/s | 0.0005 UA |
 | (2019 XF2) | 2026-12-04 | 3.1 LD | 10.2 km/s | 0.0029 UA |
 | (2022 DQ2) | 2027-02-26 | 18.9 LD | 20.8 km/s | 0.0025 UA |
@@ -53,6 +52,7 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 | (2015 DG200) | 2027-01-22 | 3.7 LD | 20.0 km/s | 0.0069 UA |
 | (2022 BB2) | 2027-01-23 | 18.7 LD | 16.3 km/s | 0.0107 UA |
 | (2024 JH1) | 2027-04-24 | 3.3 LD | 6.0 km/s | 0.0084 UA |
+| (2021 TG14) | 2027-04-16 | 12.9 LD | 12.2 km/s | 0.0017 UA |
 
 ---
 LD = distance lunaire (~384 400 km). Donnees : JPL/NASA (CAD, Sentry, SBDB). Calculs : AstroGuard.
