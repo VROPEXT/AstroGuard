@@ -1,6 +1,6 @@
-# AstroGuard - rapport du 2026-11-16
+# AstroGuard - rapport du 2026-11-17
 
-*92 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*93 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
@@ -19,7 +19,7 @@ Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marque
 | 0.74 **!** | (2022 EA) | 2027-Mar-07 06:50 | 3.0 LD | 18 m | 15.1 |
 | 0.71 **!** | (2026 FW12) | 2027-Mar-17 00:34 | 3.5 LD | 13 m | 8.1 |
 | 0.69 **!** | (2012 TF79) | 2027-Feb-26 11:20 | 12.7 LD | 12 m | 0.3 |
-| 0.68 **!** | (2026 VM3) | 2026-Nov-16 16:47 | 8.0 LD | 12 m | 3.7 |
+| 0.68 **!** | (2026 WD) | 2026-Nov-23 18:38 | 4.4 LD | 15 m | 13.9 |
 | 0.67 **!** | (2015 DG200) | 2027-Jan-22 12:01 | 3.7 LD | 124 m | 20.0 |
 | 0.66 **!** | (2026 VJ13) | 2026-Nov-17 05:36 | 3.5 LD | 13 m | 10.4 |
 | 0.65 **!** | (2022 BB2) | 2027-Jan-23 21:17 | 6.6 LD | 17 m | 16.3 |
@@ -38,8 +38,8 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 
 | Objet | Date calc. | Dist. calc. | v_rel | MOID |
 |-------|-----------|------------:|------:|-----:|
-| (2026 QQ8) | 2026-11-16 | 11.9 LD | 1.0 km/s | 0.0038 UA |
-| (2026 WA) | 2026-11-17 | 0.4 LD | 6.2 km/s | 0.0005 UA |
+| (2026 QQ8) | 2026-11-17 | 12.1 LD | 1.0 km/s | 0.0038 UA |
+| (2026 WA) | 2026-11-17 | 0.6 LD | 6.2 km/s | 0.0005 UA |
 | (2022 EF1) | 2027-03-04 | 3.0 LD | 10.4 km/s | 0.0005 UA |
 | (2010 JL88) | 2027-05-14 | 18.3 LD | 16.3 km/s | 0.0009 UA |
 | (2019 XF2) | 2026-12-04 | 3.1 LD | 10.2 km/s | 0.0029 UA |
@@ -51,7 +51,7 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 | (2022 EA) | 2027-03-07 | 7.2 LD | 15.1 km/s | 0.0076 UA |
 | (2026 FW12) | 2027-03-17 | 4.9 LD | 8.1 km/s | 0.0091 UA |
 | (2012 TF79) | 2027-02-18 | 13.8 LD | 0.5 km/s | 0.0315 UA |
-| (2026 VM3) | 2026-11-16 | 8.2 LD | 3.7 km/s | 0.0206 UA |
+| (2026 WD) | 2026-11-23 | 4.5 LD | 13.9 km/s | 0.0076 UA |
 | (2015 DG200) | 2027-01-22 | 3.7 LD | 20.0 km/s | 0.0069 UA |
 
 ---
