@@ -1,16 +1,16 @@
-# AstroGuard - rapport du 2026-11-20
+# AstroGuard - rapport du 2026-11-21
 
-*91 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*92 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
 | Risque | Objet | Date (NASA) | Distance | Diam. est. | v (km/s) |
 |-------:|-------|-------------|---------:|-----------:|---------:|
 | 0.96 **!** | (2026 QQ8) | 2026-Dec-13 13:41 | 3.5 LD | 2 m | 0.2 |
-| 0.94 **!** | (2026 WA1) | 2026-Nov-21 22:28 | 1.2 LD | 5 m | 13.6 |
+| 0.94 **!** | (2026 WA1) | 2026-Nov-21 22:26 | 1.2 LD | 5 m | 13.6 |
 | 0.91 **!** | (2022 EF1) | 2027-Mar-04 21:13 | 0.2 LD | 6 m | 10.4 |
 | 0.89 **!** | (2010 JL88) | 2027-May-14 20:52 | 0.3 LD | 16 m | 16.2 |
-| 0.88 **!** | (2026 WB1) | 2026-Nov-21 19:54 | 1.9 LD | 9 m | 13.9 |
+| 0.89 **!** | (2026 WB1) | 2026-Nov-21 19:55 | 1.9 LD | 9 m | 13.9 |
 | 0.88 **!** | (2019 XF2) | 2026-Dec-04 00:35 | 1.2 LD | 14 m | 10.2 |
 | 0.84 **!** | (2026 WJ) | 2026-Nov-22 04:21 | 1.7 LD | 14 m | 9.2 |
 | 0.81 **!** | (2022 DQ2) | 2027-Feb-26 01:53 | 1.5 LD | 32 m | 20.8 |
@@ -38,11 +38,11 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 
 | Objet | Date calc. | Dist. calc. | v_rel | MOID |
 |-------|-----------|------------:|------:|-----:|
-| (2026 QQ8) | 2026-11-20 | 12.8 LD | 1.1 km/s | 0.0038 UA |
+| (2026 QQ8) | 2026-11-21 | 13.0 LD | 1.1 km/s | 0.0038 UA |
 | (2026 WA1) | 2026-11-21 | 1.3 LD | 13.6 km/s | 0.0017 UA |
 | (2022 EF1) | 2027-03-04 | 3.0 LD | 10.4 km/s | 0.0005 UA |
 | (2010 JL88) | 2027-05-14 | 18.3 LD | 16.3 km/s | 0.0009 UA |
-| (2026 WB1) | 2026-11-21 | 1.9 LD | 14.0 km/s | 0.0018 UA |
+| (2026 WB1) | 2026-11-21 | 1.9 LD | 13.9 km/s | 0.0017 UA |
 | (2019 XF2) | 2026-12-04 | 3.1 LD | 10.2 km/s | 0.0029 UA |
 | (2026 WJ) | 2026-11-22 | 1.7 LD | 9.2 km/s | 0.0023 UA |
 | (2022 DQ2) | 2027-02-26 | 18.9 LD | 20.8 km/s | 0.0025 UA |
