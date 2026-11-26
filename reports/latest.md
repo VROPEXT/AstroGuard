@@ -1,6 +1,6 @@
-# AstroGuard - rapport du 2026-11-25
+# AstroGuard - rapport du 2026-11-26
 
-*82 approches a moins de 0,05 UA dans les 180 prochains jours.*
+*80 approches a moins de 0,05 UA dans les 180 prochains jours.*
 
 Score de risque = sortie du reseau de neurones maison (0 a 1). Les objets marques sont a examiner en priorite ; ce n'est PAS un verdict d'impact, mais un pre-tri.
 
@@ -38,7 +38,7 @@ Pour les objets les mieux classes, on recalcule l'approche a partir des seuls el
 
 | Objet | Date calc. | Dist. calc. | v_rel | MOID |
 |-------|-----------|------------:|------:|-----:|
-| (2026 QQ8) | 2026-11-25 | 13.8 LD | 1.1 km/s | 0.0038 UA |
+| (2026 QQ8) | 2026-11-26 | 14.0 LD | 1.1 km/s | 0.0038 UA |
 | (2022 EF1) | 2027-03-04 | 3.0 LD | 10.4 km/s | 0.0005 UA |
 | (2010 JL88) | 2027-05-14 | 18.3 LD | 16.3 km/s | 0.0009 UA |
 | (2019 XF2) | 2026-12-04 | 3.1 LD | 10.2 km/s | 0.0029 UA |
